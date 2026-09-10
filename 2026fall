@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎹 곡별 세션 체크 포인트 & 합주 가이드 표</title>
+<style>
+  @page {
+    size: A4 landscape;
+    margin: 5mm 7mm;
+    background-color: #ffffff;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Malgun Gothic', 'NanumGothic', 'Apple SD Gothic Neo', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1e293b;
+    font-size: 7pt;
+    line-height: 1.25;
+    background-color: #f8fafc;
+  }
+
+  .main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+
+  .title {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+    padding: 2px 0;
+    border-bottom: 2px solid #3b82f6;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    table-layout: fixed;
+  }
+
+  th {
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    padding: 3px 4px;
+    font-size: 7.5pt;
+    border: 1px solid #0f172a;
+  }
+
+  td {
+    padding: 3px 4px;
+    border: 1px solid #cbd5e1;
+    vertical-align: top;
+    font-size: 6.8pt;
+    word-break: keep-all;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+
+  .song-title {
+    font-weight: bold;
+    color: #0f172a;
+    font-size: 7.2pt;
+    line-height: 1.15;
+  }
+
+  .key-badge {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: bold;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-size: 6pt;
+    margin-top: 1px;
+  }
+
+  .yt-link {
+    display: inline-block;
+    color: #d97706;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 6pt;
+    margin-top: 2px;
+  }
+
+  .highlight {
+    color: #c2410c;
+    font-weight: bold;
+  }
+
+  .note-tag {
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 0px 3px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 6pt;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 9px;
+  }
+
+  li {
+    margin-bottom: 1px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* 모바일 반응형 스타일 */
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 10px;
+      font-size: 13px;
+      line-height: 1.4;
+      background-color: #f1f5f9;
+    }
+    .title {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    thead {
+      display: none;
+    }
+    tr {
+      margin-bottom: 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background-color: #ffffff !important;
+      padding: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    td {
+      border: none;
+      border-bottom: 1px solid #f1f5f9;
+      padding: 6px 0;
+      font-size: 13px;
+      width: 100% !important;
+    }
+    td:last-child {
+      border-bottom: none;
+    }
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      color: #334155;
+      display: block;
+      margin-bottom: 2px;
+      font-size: 12px;
+    }
+    .song-title {
+      font-size: 15px;
+    }
+    .key-badge, .yt-link, .note-tag {
+      font-size: 11px;
+      padding: 2px 5px;
+    }
+    ul {
+      padding-left: 16px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+  <div class="title">🎹 곡별 세션 체크 포인트 & 합주 가이드 표</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 14%;">곡명 (Key)</th>
+        <th style="width: 20%;">합주 팁 (합 맞출 부분)</th>
+        <th style="width: 18%;">메인 건반</th>
+        <th style="width: 18%;">세컨 건반 (일렉 보완)</th>
+        <th style="width: 15%;">드럼</th>
+        <th style="width: 15%;">베이스</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">1. 지금 우리가 주님 안에 하나가 되어</div>
+          <span class="key-badge">D Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 1. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li>오프닝곡인 만큼 경쾌한 8비트 리듬 맞춰 시작</li>
+            <li>다음 곡(G키) 진입을 위해 마무리 시 자연스러운 드럼 템포 카운트 필요</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Bright Grand Piano</strong>
+          <ul>
+            <li>통통 튀는 경쾌한 핑거링 및 인도 리듬에 맞춘 반주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Brass / Pop Horns</strong>
+          <ul>
+            <li>일렉기타의 리프/팡파르 라인을 옥타브 브라스 백킹으로 대체</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>탄력 있는 8비트 라이드/스네어 연주</li>
+            <li>템포 축 유지</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>기본 8비트 근음 라인 + 경쾌한 옥타브 리핑</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">2. 주를 찾는 모든 자들이</div>
+          <span class="key-badge">G Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 2. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">솔로 구간(최원남, 유사라)</span> 시 전 악기 볼륨 다운</li>
+            <li>16비트 바운스 리듬 다이내믹 합 맞추기</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Acoustic Grand Piano</strong>
+          <ul>
+            <li>16비트 바운스 반주 / 솔로 시 코드 위주 다운 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>EP (Rhodes) + Soft Pad</strong>
+          <ul>
+            <li>옥타브 위 코러스 EP 리프 연주</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>하이햇 중심 16비트 바운스 리듬</li>
+            <li>솔로 시 심벌 억제</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>드럼 킥과 정확히 동기화되는 16비트 핑거링</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">3. 예수 나의 첫사랑 되시네</div>
+          <span class="key-badge">A Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 3. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">인트로/코러스</span>: 딱딱 맞아떨어지는 8비트 브레이크(쿵-쿵) 섹션 체크</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Standard Grand Piano</strong>
+          <ul>
+            <li>시그니처 오프닝 멜로디 리프 담당</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Synth Lead / Rock Brass</strong>
+          <ul>
+            <li>일렉 드라이브 대신 강렬한 Synth Lead로 멜로디 강조</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>브레이크 섹션 정확한 림샷 어택 & 타악 필인</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>록 스타일의 강한 8비트 핑거링 & 킥 드럼 밀착</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">4. 춤추는 세대</div>
+          <span class="key-badge">D Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 4. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">베이스 솔로 구간</span>: 진입 시 전 세션 정지 → <strong>베이스 솔로 + 드럼 킥/스네어만</strong> 브레이크</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Rock Grand Piano</strong>
+          <ul>
+            <li>베이스 솔로 타임 시 묵직한 오프비트 코딩 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Synth Brass & Lead</strong>
+          <ul>
+            <li>강렬한 브라스 음색으로 세션 브레이크/간주 라인 연주</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>베이스 솔로 강조용 스네어/킥 뼈대 유지</li>
+            <li>빌드업 시 라이드</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <span class="note-tag">베이스 솔로</span>
+          <ul>
+            <li>슬랩(Slap) 또는 핑거링 섹션 완벽 숙지</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">5. 주님같은 반석은 없도다</div>
+          <span class="key-badge">A Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 5. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li>록앤롤/스윙 느낌 펑키한 오프비트 섹션 합 맞추기</li>
+            <li>다음 곡(멈출 수 없네)과 자연스러운 G키 템포 연결</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Bright Piano</strong>
+          <ul>
+            <li>오프비트가 살아있는 록앤롤/스윙 스타일 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Hammond Organ (Leslie)</strong>
+          <ul>
+            <li>일렉 스트럼/컷팅을 오르간 음색으로 풍성하게 커버</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>스윙/록 리듬 드라이브 및 탄탄한 템포 리딩</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>펑키한 리듬 라인 및 옥타브 바운스 핑거링</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">6. 멈출 수 없네</div>
+          <span class="key-badge">G Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 6. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">베이스 솔로 구간</span>: 인트로 시그니처 리프 후 세컨건반 브라스 어택 타임 맞추기</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Pop Piano</strong>
+          <ul>
+            <li>베이스 솔로 시 코드 위주의 미니멀 바운스 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Poly Synth / Square Lead</strong>
+          <ul>
+            <li>옥타브 시퀀스 리프 연주로 록 디스토션 효과 대체</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>베이스 인트로 리프 시 킥 드럼 정확히 연동</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <span class="note-tag">베이스 솔로</span>
+          <ul>
+            <li>인트로/간주 16비트 슬랩/핑거링 리프 담당</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">7. 모든 상황 속에서</div>
+          <span class="key-badge">G Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 7. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li>느린 곡 전환: 템포 안정화 / 1절 잔잔함에서 후렴부 빌드업 다이내믹 맞추기</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Warm Acoustic Piano</strong>
+          <ul>
+            <li>아르페지오 시작 → 후렴 빌드업 시 강한 옥타브 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Warm Strings / Pad</strong>
+          <ul>
+            <li>배경을 감싸주는 은은하고 따뜻한 패드/스트링</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>1절 심벌/림샷 위주 → 후렴 웅장한 빌드업 필인</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>잔잔한 근음 연주 → 빌드업 시 5도/8도 활용 풍성한 라인</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">8. 주의 자녀로 산다는 것은 / 예배합니다</div>
+          <span class="key-badge">F Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 8. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">솔로: 유사라</span> 및 <strong>F키 곡 연결</strong>: 자연스러운 F키 코드 전환으로 '예배합니다' 연결</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Expressive Grand Piano</strong>
+          <ul>
+            <li>보컬 솔로 호흡 맞춤 반주 및 자연스러운 F키 연동 이음새 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Slow Strings & Choir Pad</strong>
+          <ul>
+            <li>후렴부 고조 시 웅장한 스트링 스웰(Swell) 효과</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>보컬 호흡 맞춤 브러시/심벌 타임 & 적절한 크레센도</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>보컬 선율을 방해하지 않는 깔끔한 포비트 노트</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td data-label="곡명 (Key)">
+          <div class="song-title">9. 나의 하나님</div>
+          <span class="key-badge">C Key</span><br>
+          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 9. 찬양 플레이리스트</a>
+        </td>
+        <td data-label="합주 팁">
+          <ul>
+            <li><span class="highlight">솔로: 최원남</span> 구간 피아노 단독 타임 후 합류 / 잔잔히 사그라드는 아웃트로 엔딩</li>
+          </ul>
+        </td>
+        <td data-label="메인 건반">
+          <strong>Grand Piano (Reverb ↑)</strong>
+          <ul>
+            <li>정갈하고 웅장한 아르페지오 및 코드 voicing 연주</li>
+          </ul>
+        </td>
+        <td data-label="세컨 건반">
+          <strong>Warm Pad / Ensemble Strings</strong>
+          <ul>
+            <li>솔로 보컬을 가리지 않는 따뜻하고 은은한 배경음</li>
+          </ul>
+        </td>
+        <td data-label="드럼">
+          <ul>
+            <li>잔잔한 3/4(6/8) 박자 림샷 → 아웃트로 페이드아웃</li>
+          </ul>
+        </td>
+        <td data-label="베이스">
+          <ul>
+            <li>피아노 저음역과 겹치지 않는 정갈한 근음 지원</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
