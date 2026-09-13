@@ -373,43 +373,48 @@
             <li>펑키한 리듬 라인 및 옥타브 바운스 핑거링</li>
           </ul>
         </td>
-      </tr>
-      <tr>
+      </tr>      <tr>
         <td data-label="곡명 (Key)">
           <div class="song-title">6. 멈출 수 없네</div>
           <span class="key-badge">G Key</span><br>
-          <a class="yt-link" href="https://youtube.com/playlist?list=PLc3VMJypzWoQ&si=14E-j8258XcfsLp7" target="_blank">👉 6. 찬양 플레이리스트</a>
+          <a class="yt-link" href="https://m.youtube.com/watch?v=QNuAwR_R9dA" target="_blank">👉 6. 피아워십 버전 영상</a>
         </td>
         <td data-label="합주 팁">
           <ul>
-            <li><span class="highlight">베이스 솔로 구간</span>: 인트로 시그니처 리프 후 세컨건반 브라스 어택 타임 맞추기</li>
+            <li><span class="highlight">피아워십(F.I.A) 편곡</span>: 16비트 팝/록 펑키 바운스 리듬 유지</li>
+            <li>인트로/간주 시그니처 신스 리프에 맞춰 드럼/베이스 타이트한 오프비트 어택 맞추기</li>
+            <li>브릿지 진입 전 다이내믹 브레이크 & 빌드업 섹션 체크</li>
           </ul>
         </td>
         <td data-label="메인 건반">
-          <strong>Pop Piano</strong>
+          <strong>Bright Pop Piano</strong>
           <ul>
-            <li>베이스 솔로 시 코드 위주의 미니멀 바운스 연주</li>
+            <li>16비트 리듬감이 살아있는 톡톡 튀는 컴핑(Comping) 연주</li>
+            <li>브릿지/후렴 고조 시 옥타브 바운스 코딩 반주</li>
           </ul>
         </td>
         <td data-label="세컨 건반">
-          <strong>Poly Synth / Square Lead</strong>
+          <strong>Synth Brass & Poly Lead</strong>
           <ul>
-            <li>옥타브 시퀀스 리프 연주로 록 디스토션 효과 대체</li>
+            <li><span class="note-tag">핵심 역할</span> 인트로/간주 메인 신스 브라스 리프 리딩</li>
+            <li>후렴/빌드업 시 리드미컬한 폴리신스 백킹 연주</li>
           </ul>
         </td>
         <td data-label="드럼">
           <ul>
-            <li>베이스 인트로 리프 시 킥 드럼 정확히 연동</li>
+            <li>16비트 하이햇/스네어 바운스 리듬 유지</li>
+            <li>섹션 어택 시 정확한 킥 드럼 연동 및 브레이크 필인</li>
           </ul>
         </td>
         <td data-label="베이스">
-          <span class="note-tag">베이스 솔로</span>
           <ul>
-            <li>인트로/간주 16비트 슬랩/핑거링 리프 담당</li>
+            <li>16비트 핑거링/슬랩 리듬으로 팡팡 튕겨주는 펀치감 형성</li>
+            <li>드럼 킥과 밀착된 오프비트 리프 담당</li>
           </ul>
         </td>
       </tr>
-      <tr>
+
+      
         <td data-label="곡명 (Key)">
           <div class="song-title">7. 모든 상황 속에서</div>
           <span class="key-badge">G Key</span><br>
